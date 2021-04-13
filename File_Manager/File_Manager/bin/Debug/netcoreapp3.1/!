@@ -1,0 +1,67 @@
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ sd
+bash: sd: command not found
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ ls
+print_hello.py  venv/
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git add print_hello.py
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git commit print_hello.py
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ksmil@DESKTOP-HHDM1RM.(none)')
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ ^C
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git config --global user.email "you@example.com"
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git config --global user.email "you@example.com"
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git config --global user.email "you@example.com"
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ ^C
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git config --global user.email "ksmilor@mail.ru"
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$  git config --global user.name "Ksmilor"
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git commit print_hello.py
+[master (root-commit) cc31594] Add function print_hello.
+ 1 file changed, 2 insertions(+)
+ create mode 100644 print_hello.py
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ gitb clone https://gitlab.com/ferrociraptus/git_test/-/issues
+bash: gitb: command not found
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git clone https://gitlab.com/ferrociraptus/git_test/-/issues
+Cloning into 'issues'...
+fatal: unable to access 'https://gitlab.com/ferrociraptus/git_test/-/issues/': The requested URL returned error: 503
+
+ksmil@DESKTOP-HHDM1RM MINGW64 ~/PycharmProjects/pythonProject (master)
+$ git clone https://gitlab.com/ferrociraptus/git_test/-/issues
+Cloning into 'issues'...
+fatal: unable to access 'https://gitlab.com/ferrociraptus/git_test/-/issues/': The requested URL returned error: 503
+
